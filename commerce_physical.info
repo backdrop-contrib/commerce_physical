@@ -1,9 +1,10 @@
 name = Physical Product
-description = Provides API support for working with physical product types in Drupal Commerce.
+description = Provides API support for working with physical product types in Commerce.
 package = Commerce (contrib)
 dependencies[] = commerce_line_item
 dependencies[] = commerce_order
 dependencies[] = commerce_product
 dependencies[] = commerce_product_reference
 dependencies[] = physical
-core = 7.x
+backdrop = 1.x
+type = module

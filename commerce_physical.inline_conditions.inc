@@ -22,15 +22,15 @@ function commerce_physical_inline_conditions_info() {
   return $conditions;
 }
 
- /**
-  * Configuration callback for commerce_physical_order_weight_comparison_configure.
-  *
-  * @param array $settings
-  *   An array of rules condition settings.
-  *
-  * @return array
-  *   A form element array.
-  */
+/**
+ * Configuration callback for commerce_physical_order_weight_comparison_configure.
+ *
+ * @param array $settings
+ *   An array of rules condition settings.
+ *
+ * @return array
+ *   A form element array.
+ */
 function commerce_physical_order_weight_comparison_configure($settings) {
   $form = array();
 
